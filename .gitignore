@@ -138,6 +138,7 @@ csx
 
 # Windows Store app package directory
 AppPackages/
+node_modules/
 
 # Others
 sql/

@@ -1,0 +1,181 @@
+Initializing repository, done.
+
+-----> Node.js app detected
+-----> Requested node range:  0.10.x
+-----> Resolved node version: 0.10.28
+-----> Downloading and installing node
+-----> Found existing node_modules directory; skipping cache
+-----> Rebuilding any native dependencies
+       npm ERR! Error: ENOENT, chmod '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/bin/jade.js'
+       npm ERR! If you need help, you may report this *entire* log,
+       npm ERR! including the npm and node versions, at:
+       npm ERR!     <http://github.com/npm/npm/issues>
+       
+       npm ERR! System Linux 3.8.11-ec2
+       npm ERR! command "/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/vendor/node/bin/node" "/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/vendor/node/bin/npm" "rebuild"
+       npm ERR! cwd /tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94
+       npm ERR! node -v v0.10.28
+       npm ERR! npm -v 1.4.9
+       npm ERR! path /tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/bin/jade.js
+       npm ERR! code ENOENT
+       npm ERR! errno 34
+       npm ERR! 
+       npm ERR! Additional logging details can be found in:
+       npm ERR!     /tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/npm-debug.log
+       npm ERR! not ok code 0
+0 info it worked if it ends with ok
+1 verbose cli [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/vendor/node/bin/node',
+1 verbose cli   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/vendor/node/bin/npm',
+1 verbose cli   'rebuild' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 info readInstalled object
+5 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94',
+5 verbose rebuild   'application-name@0.0.1' ]
+6 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade',
+6 verbose rebuild   'jade@1.3.1' ]
+7 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/commander',
+7 verbose rebuild   'commander@2.1.0' ]
+8 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/mkdirp',
+8 verbose rebuild   'mkdirp@0.3.5' ]
+9 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers',
+9 verbose rebuild   'transformers@2.1.0' ]
+10 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/promise',
+10 verbose rebuild   'promise@2.0.0' ]
+11 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise',
+11 verbose rebuild   'is-promise@1.0.1' ]
+12 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/css',
+12 verbose rebuild   'css@1.0.8' ]
+13 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse',
+13 verbose rebuild   'css-parse@1.0.4' ]
+14 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify',
+14 verbose rebuild   'css-stringify@1.0.5' ]
+15 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js',
+15 verbose rebuild   'uglify-js@2.2.5' ]
+16 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map',
+16 verbose rebuild   'source-map@0.1.33' ]
+17 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+17 verbose rebuild   'amdefine@0.1.0' ]
+18 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist',
+18 verbose rebuild   'optimist@0.3.7' ]
+19 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+19 verbose rebuild   'wordwrap@0.0.2' ]
+20 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/character-parser',
+20 verbose rebuild   'character-parser@1.2.0' ]
+21 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle',
+21 verbose rebuild   'monocle@1.1.51' ]
+22 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp',
+22 verbose rebuild   'readdirp@0.2.5' ]
+23 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch',
+23 verbose rebuild   'minimatch@0.3.0' ]
+24 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/lru-cache',
+24 verbose rebuild   'lru-cache@2.5.0' ]
+25 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/sigmund',
+25 verbose rebuild   'sigmund@1.0.0' ]
+26 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with',
+26 verbose rebuild   'with@3.0.0' ]
+27 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js',
+27 verbose rebuild   'uglify-js@2.4.13' ]
+28 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/async',
+28 verbose rebuild   'async@0.2.10' ]
+29 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map',
+29 verbose rebuild   'source-map@0.1.33' ]
+30 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+30 verbose rebuild   'amdefine@0.1.0' ]
+31 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist',
+31 verbose rebuild   'optimist@0.3.7' ]
+32 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+32 verbose rebuild   'wordwrap@0.0.2' ]
+33 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/uglify-to-browserify',
+33 verbose rebuild   'uglify-to-browserify@1.0.2' ]
+34 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople',
+34 verbose rebuild   'constantinople@2.0.0' ]
+35 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js',
+35 verbose rebuild   'uglify-js@2.4.13' ]
+36 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/async',
+36 verbose rebuild   'async@0.2.10' ]
+37 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map',
+37 verbose rebuild   'source-map@0.1.33' ]
+38 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+38 verbose rebuild   'amdefine@0.1.0' ]
+39 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist',
+39 verbose rebuild   'optimist@0.3.7' ]
+40 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+40 verbose rebuild   'wordwrap@0.0.2' ]
+41 verbose rebuild path, id [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/uglify-to-browserify',
+41 verbose rebuild   'uglify-to-browserify@1.0.2' ]
+42 silly rebuild set [ '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/commander',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/mkdirp',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/promise',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/css',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/character-parser',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/lru-cache',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/node_modules/sigmund',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/async',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/with/node_modules/uglify-js/node_modules/uglify-to-browserify',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/async',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap',
+42 silly rebuild set   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/uglify-to-browserify' ]
+43 info build /tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade
+44 info preinstall jade@1.3.1
+45 verbose linkStuff [ false,
+45 verbose linkStuff   false,
+45 verbose linkStuff   false,
+45 verbose linkStuff   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules' ]
+46 info linkStuff jade@1.3.1
+47 verbose linkBins jade@1.3.1
+48 verbose link bins [ { jade: './bin/jade.js' },
+48 verbose link bins   '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/.bin',
+48 verbose link bins   false ]
+49 verbose linkMans jade@1.3.1
+50 verbose rebuildBundles jade@1.3.1
+51 verbose rebuildBundles [ 'character-parser',
+51 verbose rebuildBundles   'commander',
+51 verbose rebuildBundles   'constantinople',
+51 verbose rebuildBundles   'mkdirp',
+51 verbose rebuildBundles   'monocle',
+51 verbose rebuildBundles   'transformers',
+51 verbose rebuildBundles   'with' ]
+52 error Error: ENOENT, chmod '/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/bin/jade.js'
+53 error If you need help, you may report this *entire* log,
+53 error including the npm and node versions, at:
+53 error     <http://github.com/npm/npm/issues>
+54 error System Linux 3.8.11-ec2
+55 error command "/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/vendor/node/bin/node" "/tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/vendor/node/bin/npm" "rebuild"
+56 error cwd /tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94
+57 error node -v v0.10.28
+58 error npm -v 1.4.9
+59 error path /tmp/build_baaf81f2-fb1e-4939-a449-5875e1efab94/node_modules/jade/bin/jade.js
+60 error code ENOENT
+61 error errno 34
+62 verbose exit [ 34, true ]
+
+ !     Push rejected, failed to compile Node.js app
+
+To git@heroku.com:nichols-es.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'git@heroku.com:nichols-es.git'
