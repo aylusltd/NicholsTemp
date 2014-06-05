@@ -1,0 +1,67 @@
+h1{
+	color: #0B0974;
+}
+#name{
+	color: #A67D00;
+}
+#dates{
+	color: #8583E9
+}
+#born, #died{
+
+}
+p.address, h3.sub{
+	margin:0px;
+}
+h3.sub{
+	font-style: italic;
+	color: #8583E9;
+}
+h2{
+	margin-bottom: 0px;
+	color: #A67D00;
+}
+
+
+#mainPortrait, #name, #dates, #eulogy{
+	max-width:60%;
+	margin:auto;
+	display: block;
+	text-align: center;
+}
+#eulogy{
+	background-color: #F0F0FF;
+	text-align: left;
+	padding: 10px;
+}
+#mainPortrait{
+	max-height: 40%;
+}
+body{
+	font-family: serif;
+	/*background-color: #9593F9;*/
+}
+#eulogy p:before{
+	margin-left:1em;
+	content:" ";
+}
+
+
+
+
+/* Palette color codes */
+/* Feel free to copy&paste color codes to your application */
+
+.primary-1 { background-color: #1D1AB2 }
+.primary-2 { background-color: #323086 }
+.primary-3 { background-color: #0B0974 }
+.primary-4 { background-color: #514ED9 }
+.primary-5 { background-color: #7573D9 }
+
+.complement-1 { background-color: #FFC000 }
+.complement-2 { background-color: #BF9C30 }
+.complement-3 { background-color: #A67D00 }
+.complement-4 { background-color: #FFD040 }
+.complement-5 { background-color: #FFDD73 }
+
+/* end */

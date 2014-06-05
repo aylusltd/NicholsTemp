@@ -1,0 +1,78 @@
+extends people
+block header
+	title="Betty L. Nichols"
+	style.
+		body{padding:0 5%; background-color:#F0F0FF}
+		div#shortcuts{position:fixed;top:0;width:90%;background-color:#FFC000;text-align:center}
+		div#shortcuts>a{width:18%; display:inline-block}
+		body>a{
+			padding:1em;
+			display:block;
+		}
+		body>a>*{
+			max-width:90%;
+		}
+		a#contact{
+			text-align:center;
+		}
+block content
+	#shortcuts
+		a(href="#dinner") Dinner 6/5
+		a(href="#viewing") Viewing 6/5
+		a(href="#church") Church 6/6
+		a(href="#repast") Repast 6/6
+		a(href="#contact") Contact
+
+	h1 Funeral Arrangements
+	a(name="dinner")
+		h2 Dinner
+		h3.sub Pre Viewing - Friday June 5th at 5:00pm
+		p.address Palermo's
+		p.address 351 W Main St
+		p.address New Holland,PA
+		p.address 717-354-2680
+		
+		iframe(width="550",height="400",frameborder="0",style="border:0",src="https://www.google.com/maps/embed/v1/place?q=Palermo+Pizza+%26+Italian+Restaurant&key=AIzaSyBVvfYdIov1ydDmhOO12fW3VQo5qxgSPc4")
+		img(src='http://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.10018,-76.098097&heading=342.05', height="400",style="display:inline-block")
+
+	a(name="viewing")
+		h2 Funeral Home
+		h3.sub Viewing - Thursday June 5th from 7:00-9:00pm
+		p.address Groff-High-Eckenroth
+		p.address 145 West Main St.
+		p.address New Holland, PA
+		p.address 717-354-0444
+		img(src='http://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.101575,-76.091408&heading=348.15', height="400",style="display:inline-block")
+		iframe(width="550",height="400",frameborder="0",style="border:0",src="https://www.google.com/maps/embed/v1/place?q=Groff%20High%20&key=AIzaSyBVvfYdIov1ydDmhOO12fW3VQo5qxgSPc4")
+	
+	a(name="church")
+		h2 Church
+		h3.sub Viewing - Friday June 6th at 10:00am
+		h3.sub Funeral - Friday June 6th at 12:00pm
+		p.address Faith E. C. Church
+		p.address 2124 Old Phila Pike
+		p.address Lancaster,PA
+		p.address 717-393-5345
+		
+		iframe(width="550",height="400",frameborder="0",style="border:0",src="https://www.google.com/maps/embed/v1/place?q=2124+Old+Philadelphia+Pike&key=AIzaSyBVvfYdIov1ydDmhOO12fW3VQo5qxgSPc4")
+		img(src='http://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.040115,-76.2341078&heading=200', height="400",style="display:inline-block")
+	
+	a(name="repast")
+		h2 Family Repast
+		h3.sub Dinner - Friday June 6th Time To Be Decided
+		p.address Bird-in-Hand Restaraunt
+		p.address 2760 Old Phila Pike
+		p.address Bird-in-Hand,PA
+		p.address 717-768-1500
+
+		img(src='http://maps.googleapis.com/maps/api/streetview?size=400x400&location=40.038554,-76.174306&heading=189.2', height="400",style="display:inline-block")
+		iframe(width="550",height="400",frameborder="0",style="border:0",src="https://www.google.com/maps/embed/v1/place?q=Bird-in-Hand+Family+Restaurant&key=AIzaSyBVvfYdIov1ydDmhOO12fW3VQo5qxgSPc4")
+ 
+
+	h2 Flowers and Donations
+	p In lieu of flowers contributions may be made to support missionaries Lamar and Janice Stoltzfus, account #031720, c/o Africa Inland Mission International, Inc., PO Box 3611, Peachtree City, GA 30269.
+	p If you need further assistance, please don't hesitate to call: 
+	a#contact(name="contact")
+		span Jason Nichols
+		br 
+		span 201-341-8734
